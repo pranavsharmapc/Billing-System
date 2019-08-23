@@ -1,0 +1,128 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>EMPLOYEE REGISTER</title>
+<style>
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width:320px;
+    height: 700px;
+    background: #93BCC6;
+    opacity: 0.5;
+    color: #fffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius:20px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #FCFCFC;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #adff2f;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #228b22;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #93BCC6;
+}
+
+.loginbox a:hover
+{
+    color: #228b22;
+}
+
+</style>
+</head>
+<body>
+ <form action="ins_inv.java" method="post">
+
+    <div class="loginbox">
+ 
+        <h1>EMPLOYEE REGISTER</h1>
+            <p>product id</p>
+            <input type="text" name="pid" placeholder="Enter product id">
+            <p>product name</p>
+            <input type="text" name="pname" placeholder="Enter product name">
+             <p>mrp</p>
+            <input type="text" name="mrp" placeholder="Enter mrp">
+            
+   
+            <p>s_price</p>
+            <input type="text" name="address" placeholder="Enter address">
+             <p>exp_date</p>
+            <input type="text" name="phno" placeholder="Enter phone no">
+            <p>quantity</p>
+            <input type="text" name="quantity" >
+            
+        
+            <div id="submit"><input type="submit" name="submit" value="register"></a></div>
+            
+                 </div>
+
+  </form>
+
+</body>
+</html>
